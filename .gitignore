@@ -1,0 +1,7 @@
+*.csv
+*.env
+*.txt
+node_modules/
+pg-cloud-441406-ae7849d9dbce.json
+token.json
+credentials.json

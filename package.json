@@ -1,0 +1,43 @@
+{
+  "name": "pg_cloud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "axios": "^1.8.1",
+    "chromedriver": "^133.0.0",
+    "chronium": "^0.0.6",
+    "csv-parser": "^3.2.0",
+    "google-auth-library": "^9.15.0",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^105.0.0",
+    "mailparser": "^3.3.0",
+    "node-imap": "^0.9.6",
+    "node-notifier": "^10.0.1",
+    "playwright": "^1.49.1",
+    "puppeteer": "^24.2.0",
+    "selenium-webdriver": "^4.28.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.14.1",
+    "dotenv": "^16.5.0",
+    "eslint": "^9.24.0",
+    "express": "^5.1.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.5"
+  }
+}
