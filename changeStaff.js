@@ -42,7 +42,8 @@ import { Post } from './post.js'
                         await page.goBack();
                         await page.waitForSelector('body > main > div.customers-index > div.table > div.table-pagers > div.table-pagers-left > div.table-pagers-label > div > span');
                     };          
-                    const targetName = await page.$eval('//html/body/main/div[1]/div[2]/div/form/div[1]/div[4]/div[1]/div[2]/input[1]', el => el.value);
+                    const targetName = await page.$eval('//html/body/main/div[1]/div[2]/div/form/div[1]/div[2]/div[1]/div[2]/div/div[1]/input', el => el.innerText.trim());
+                    console.log(`${targetRank}_${targetName}`)
                     await page.click('//html/body/main/div[1]/div[2]/div/form/div[1]/div[2]/div[2]/div[2]/div');
                     await page.click(`div[data-label="KH延岡店 管理"]`);
                     await page.click('//html/body/main/div/div[2]/div/form/div[3]/div[2]/div/button'); // 登録ボタン
